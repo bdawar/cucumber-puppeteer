@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search LinkedIn on google",
+    "line": 1,
+    "id": "search-linkedin-on-google",
+    "tags": [],
+    "uri": "features/search.feature",
+    "elements": [
+      {
+        "id": "search-linkedin-on-google;verify-result-for-google-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify result for google search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The browser is open",
+            "match": {
+              "location": "features/support/steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "open Google's homepage",
+            "match": {
+              "location": "features/support/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "search for LinkedIn",
+            "match": {
+              "location": "features/support/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "display the result count",
+            "match": {
+              "location": "features/support/steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

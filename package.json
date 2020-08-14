@@ -1,0 +1,26 @@
+{
+  "name": "cucumber-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber-report.json",
+    "report": "node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bdawar/cucumber-puppeteer.git"
+  },
+  "author": "Bhavya Dawar (b.dawar@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdawar/cucumber-puppeteer/issues"
+  },
+  "homepage": "https://github.com/bdawar/cucumber-puppeteer#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "puppeteer": "^5.2.1"
+  }
+}
